@@ -18,10 +18,6 @@ function compute() {
         alert("No. of Years must be filled out");
         document.getElementById("years").focus();
         return false;
-    }else if (years < 1) {
-        alert("No. of Years must be a positive number");
-        document.getElementById("years").focus();
-        return false;
     } else {
     const date = new Date();
     var currentYear = date.getFullYear();
